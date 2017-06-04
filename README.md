@@ -2,7 +2,7 @@
 
 This is an application demonstrating how to setup a ReactJS application with Webpack.
 
-A working example can be found [here](http://www.herokutestapp3z24.com/). Additionally, a YouTube tutorial series illustrating how to create this application from scratch can be found [here](https://www.youtube.com/playlist?list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d).
+A working example can be found [here](https://cryptic-brushlands-42211.herokuapp.com/). Additionally, a YouTube tutorial series illustrating how to create this application from scratch can be found [here](https://youtu.be/w9-1T1D0xlQ).
 
 ## Requirements
 
@@ -37,7 +37,7 @@ You will need to run:
 ```
 $ npm install node-sass
 ```
- 
+
 ## Contributors
 
 David Acosta.
