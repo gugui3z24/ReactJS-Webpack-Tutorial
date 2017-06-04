@@ -11090,7 +11090,7 @@ var greeting = "Hello World";
 /* 97 */
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"utf-8\">\n  <title>ReactJS with Webpack</title>\n  <link rel=\"stylesheet\" href=\"https://bootswatch.com/paper/bootstrap.css\">\n</head>\n\n<body>\n  <div id=\"react-nav\"></div>\n  <div class=\"container\">\n    <div id=\"react-container\"></div>\n  </div>\n  <script src=\"bundle.js\"></script>\n  <script src=\"https://code.jquery.com/jquery-3.2.1.js\" integrity=\"sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=\" crossorigin=\"anonymous\"></script>\n  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>\n</body>\n\n</html>\n";
+module.exports = "<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>ReactJS with Webpack</title>\r\n  <!-- Bootstrap CSS -->\r\n  <link rel=\"stylesheet\" href=\"https://bootswatch.com/paper/bootstrap.css\">\r\n</head>\r\n\r\n<body>\r\n  <!-- Navbar React Component -->\r\n  <div id=\"react-nav\"></div>\r\n\r\n  <!-- Main React Container -->\r\n  <div class=\"container\">\r\n    <div id=\"react-container\"></div>\r\n  </div>\r\n\r\n  <!-- Webpack Bundle -->\r\n  <script src=\"bundle.js\"></script>\r\n\r\n  <!-- jQuery for Bootstrap -->\r\n  <script src=\"https://code.jquery.com/jquery-3.2.1.js\" integrity=\"sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=\" crossorigin=\"anonymous\"></script>\r\n  <!-- BootstrapJS -->\r\n  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>\r\n</body>\r\n\r\n</html>\r\n";
 
 /***/ }),
 /* 98 */
@@ -11476,10 +11476,10 @@ var Navbar = exports.Navbar = function (_React$Component) {
 "use strict";
 
 
-__webpack_require__(97);
-__webpack_require__(95);
-__webpack_require__(96);
-__webpack_require__(98);
+__webpack_require__(97); // Main Index Layout
+__webpack_require__(95); // Main React Application
+__webpack_require__(96); // Sample JS File
+__webpack_require__(98); // Sample Sass File
 
 /***/ }),
 /* 105 */
